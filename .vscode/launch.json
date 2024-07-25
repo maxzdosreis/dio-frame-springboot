@@ -1,0 +1,49 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpringConfigurationPropertiesApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_configuration_properties.SpringConfigurationPropertiesApplication",
+            "projectName": "spring-configuration-properties"
+        },
+        {
+            "type": "java",
+            "name": "SpringPropertiesValueApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_properties_value.SpringPropertiesValueApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "SpringScopesSingletonPrototypeApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_scopes_singleton_prototype.SpringScopesSingletonPrototypeApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PrimeirosPassosApplication",
+            "request": "launch",
+            "mainClass": "dio.springboot.PrimeirosPassosApplication",
+            "projectName": "primeiros-passos"
+        },
+        {
+            "type": "java",
+            "name": "SpringIocDiBeansAutowiredApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_ioc_di_beans_autowired.SpringIocDiBeansAutowiredApplication",
+            "projectName": "spring-ioc-di-beans-autowired"
+        }
+    ]
+}
