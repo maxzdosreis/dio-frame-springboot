@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpringDataJpaApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_data_jpa.SpringDataJpaApplication",
+            "projectName": "spring-data-jpa"
+        },
+        {
+            "type": "java",
             "name": "SpringConfigurationPropertiesApplication",
             "request": "launch",
             "mainClass": "dio.spring_configuration_properties.SpringConfigurationPropertiesApplication",
