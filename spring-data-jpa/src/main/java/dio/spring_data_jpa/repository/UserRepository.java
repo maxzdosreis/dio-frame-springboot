@@ -10,4 +10,10 @@ import dio.spring_data_jpa.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer>{
     
+    List<User> findByNameContaining(String name);
+
+    User findByUsername(String username);
+
+    @Query("select u from User u where u.name like %:name%")
+    List<User> filtrarPorNome(@Param("name") String name);
 }

@@ -12,17 +12,22 @@ import dio.spring_data_jpa.repository.UserRepository;
 @Component
 public class StartApp implements CommandLineRunner{
     @Autowired
-    private UserRepository repository;
+    private UserRepository userRepository;
     @Override
     public void run(String... args) throws Exception {
+        List<dio.spring_data_jpa.model.User> users = userRepository.findByUsername("maxreis");
+        for(dio.spring_data_jpa.model.User u: users){
+            System.out.println(u);
+        }
+    }
+    private void insertUser(){
         dio.spring_data_jpa.model.User user = new dio.spring_data_jpa.model.User();
-        user.setName("Max Reis");
-        user.setUsername("maxreis");
-        user.setPassword("dio123");
+        user.setName("GABRIEL NUNES");
+        user.setUsername("gabriel");
+        user.setPassword("santos");
+        userRepository.save(user);
 
-        repository.save(user);
-
-        for(dio.spring_data_jpa.model.User u: repository.findAll()){
+        for(dio.spring_data_jpa.model.User u: userRepository.findAll()){
             System.out.println(u);
         }
     }
