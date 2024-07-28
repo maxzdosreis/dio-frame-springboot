@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpringSecurityApplication",
+            "request": "launch",
+            "mainClass": "dio.spring_security.SpringSecurityApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "SpringbootWebSwaggerApplication",
+            "request": "launch",
+            "mainClass": "dio.springboot_web_swagger.SpringbootWebSwaggerApplication",
+            "projectName": "springboot-web-swagger"
+        },
+        {
+            "type": "java",
+            "name": "SpringbootWebApplication",
+            "request": "launch",
+            "mainClass": "dio.springboot_web.SpringbootWebApplication",
+            "projectName": "springboot-web"
+        },
+        {
+            "type": "java",
             "name": "SpringDataJpaApplication",
             "request": "launch",
             "mainClass": "dio.spring_data_jpa.SpringDataJpaApplication",
